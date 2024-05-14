@@ -14,6 +14,7 @@
     "@angular/common": "^17.0.0",
     "@angular/compiler": "^17.0.0",
     "@angular/core": "^17.0.0",
+    "@angular/fire": "^17.0.1",
     "@angular/forms": "^17.0.0",
     "@angular/platform-browser": "^17.0.0",
     "@angular/platform-browser-dynamic": "^17.0.0",
@@ -23,10 +24,13 @@
     "zone.js": "~0.14.2"
   },
   "devDependencies": {
+    "@angular-builders/custom-webpack": "^17.0.2",
     "@angular-devkit/build-angular": "^17.0.5",
     "@angular/cli": "^17.0.5",
     "@angular/compiler-cli": "^17.0.0",
     "@types/jasmine": "~5.1.0",
+    "@types/node": "^20.12.11",
+    "dotenv-webpack": "^8.1.0",
     "jasmine-core": "~5.1.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
